@@ -1,0 +1,47 @@
+.friendItemWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    row-gap: 20px;
+    width: 8%;
+}
+
+.friendItemBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.friendImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 10px;
+
+}
+
+.friendName {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.friendStatusOn {
+    color: green;
+    margin: 0;
+    font-size: 15px;
+    padding-bottom: 15px;
+
+}
+
+.friendStatusOff {
+    color: red;
+    margin: 0;
+    font-size: 15px;
+    padding-bottom: 15px;
+}

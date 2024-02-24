@@ -1,0 +1,21 @@
+.transactionInfo,
+.transactionInfoType {
+    padding: 10px;
+    border: 2px solid black;
+
+
+}
+
+.transactionInfoType:first-letter {
+    text-transform: uppercase;
+}
+
+.evenRow {
+    background-color: #ffffff;
+
+}
+
+.oddRow {
+    background-color: #d3d3d3;
+
+}

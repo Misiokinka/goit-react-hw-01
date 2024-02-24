@@ -1,0 +1,21 @@
+.transactionHistoryWrapper {
+    margin: 20px;
+}
+
+.transactionTitles {
+    margin-bottom: 10px;
+}
+
+.transactionTable {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+.transactionType,
+.transactionAmount,
+.transactionCurrency {
+    padding: 10px;
+    background-color: #2a2a2a;
+    border: 2px solid black;
+    color: white;
+}
