@@ -21,10 +21,10 @@ const TransactionHistory = () => {
                                 type={item.type}
                                 amount={item.amount}
                                 currency={item.currency}
-                                index={index}
-                            />
+                                index={index} />
                         )
-                    })} </table>
+                    })}
+                </table>
             </div>
 
         </div>
