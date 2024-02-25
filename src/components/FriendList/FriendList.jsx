@@ -4,7 +4,7 @@ import friends from "../../../src/friends.json"
 const FriendList = () => {
 
     return (
-        < div className={css.friendListWrapper}>
+        < ul className={css.friendListWrapper}>
             {friends.map((item) => {
                 return (
                     < FriendListItem
@@ -16,7 +16,7 @@ const FriendList = () => {
                 )
             })}
 
-        </ div>
+        </ ul>
     )
 }
 

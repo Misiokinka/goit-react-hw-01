@@ -16,7 +16,7 @@ const Profile = (props) => {
 
             <ul className={css.profileListInfo}>
                 <li className={css.profileListItem}>
-                    <span className={css.ddddA}>Followers</span>
+                    <span >Followers</span>
                     <span className={css.profileStats}>{stats.followers}</span>
                 </li>
                 <li className={css.profileListItem}>

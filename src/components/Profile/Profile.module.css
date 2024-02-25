@@ -19,10 +19,10 @@
     border-bottom: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
 
-    p {
-        margin: 0;
-    }
+.profileWrapper p {
+    margin: 0;
 }
 
 .profileImg {
